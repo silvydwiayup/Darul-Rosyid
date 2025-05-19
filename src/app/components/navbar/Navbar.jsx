@@ -26,7 +26,7 @@ export default function Navbar() {
                             <img src="/Logo/_1L-Logo_Darul-Rosyid.webp" alt="Darul Rosyid" />
                         </div>
                         <div className="nav-logo-title">
-                            <h1>Darul Rosyid</h1>
+                            <h1>Darur Rosyid</h1>
                         </div>
                     </Link>
                 </div>

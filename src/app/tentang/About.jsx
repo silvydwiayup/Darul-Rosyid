@@ -12,7 +12,7 @@ const Section_About = () => {
             <div className="container-about">
                 <div className="about-title-header">
                         <h3>Tentang</h3>
-                        <h2>Darul Rosyid</h2>
+                        <h2>Darur Rosyid</h2>
                     </div>
                 <div className="about-header">
                     <div className="about-header">
@@ -35,10 +35,10 @@ const Section_About = () => {
                     </div>
                     <div className="about-main-right">
                         <div className="about-main-right-title">
-                            <h3>Selamat Datang di Official Website Darul Rosyid</h3>
+                            <h3>Selamat Datang di Official Website Darur Rosyid</h3>
                         </div>
                         <div className="about-main-right-paragraph">
-                            <p>Pondok Pesantren Darul Rosyid merupakan lembaga pendidikan Islam yang berkomitmen membentuk generasi muda yang berakhlak mulia, berilmu, dan bertakwa. Dengan menggabungkan kurikulum pendidikan formal dan pendidikan pesantren, Darul Rosyid membina santri untuk memiliki kecakapan intelektual sekaligus spiritual. Para santri tidak hanya dibekali dengan ilmu agama seperti tahfidzul Qur’an, fiqih, dan aqidah, tetapi juga diajarkan ilmu pengetahuan umum untuk mempersiapkan mereka menghadapi tantangan zaman. Dengan lingkungan yang kondusif, disiplin, serta didukung oleh tenaga pengajar yang kompeten, pesantren ini menjadi tempat yang ideal untuk menumbuhkan karakter dan potensi generasi penerus bangsa.</p>
+                            <p>Pondok Pesantren Darur Rosyid merupakan lembaga pendidikan Islam yang berkomitmen membentuk generasi muda yang berakhlak mulia, berilmu, dan bertakwa. Dengan menggabungkan kurikulum pendidikan formal dan pendidikan pesantren, Darur Rosyid membina santri untuk memiliki kecakapan intelektual sekaligus spiritual. Para santri tidak hanya dibekali dengan ilmu agama seperti tahfidzul Qur’an, fiqih, dan aqidah, tetapi juga diajarkan ilmu pengetahuan umum untuk mempersiapkan mereka menghadapi tantangan zaman. Dengan lingkungan yang kondusif, disiplin, serta didukung oleh tenaga pengajar yang kompeten, pesantren ini menjadi tempat yang ideal untuk menumbuhkan karakter dan potensi generasi penerus bangsa.</p>
                             <h4>Lorem Ipsum</h4>
                             <span>Pimpinan Yayasan</span>
                         </div>

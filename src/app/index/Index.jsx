@@ -136,7 +136,7 @@ const Container_Index = () => {
                 <div className="section-bg-index">
                     <img src="/images/index/dummy-pict.webp" alt="Banner" className="background-image-index" />
                     <div className="overlay-text-index">
-                        <h2>Pondok Pesantren Modern Darul Rosyid</h2>
+                        <h2>Pondok Pesantren Modern Darur Rosyid</h2>
                         <p>Ini adalah teks di atas gambar yang ditengahkan.</p>
                     </div>
                 </div>
@@ -180,7 +180,7 @@ const Container_Index = () => {
             <div className="container-fakta">
                 <div className="section-fakta">
                     <div className="head-fakta">
-                        <h2 className="tittle-fakta">Fakta Pesantren Darul Rosyid</h2>
+                        <h2 className="tittle-fakta">Fakta Pesantren Darur Rosyid</h2>
                     </div>
                     <div className="body-fakta">
                         <div className="fakta-card">
