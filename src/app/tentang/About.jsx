@@ -44,6 +44,20 @@ const Section_About = () => {
                         </div>
                     </div>
                 </div>
+                <div className="about-vision-mision">
+                    <div className="about-vision">
+                        <h3>Visi</h3>
+                        <p>Menjadi lembaga pendidikan Islam yang unggul dalam membentuk generasi berakhlak, berilmu, dan bertakwa.</p>
+                    </div>
+                    <div className="about-mision">
+                        <h3>Misi</h3>
+                        <ul>
+                            <li>Mendidik santri dengan ilmu agama dan umum.</li>
+                            <li>Menanamkan nilai-nilai moral dan spiritual.</li>
+                            <li>Mengembangkan potensi dan karakter santri.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
     )
