@@ -5,8 +5,7 @@ import Index from "@/app/index/Index";
 export default function Home() {
   return (
     <>
-    <Index/>
-
+      <Index/>
     </>
   );
 }
