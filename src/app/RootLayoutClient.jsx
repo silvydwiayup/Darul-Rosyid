@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 
 export default function RootLayoutClient({ children }) {
     const pathname = usePathname();
-    const isAuthPage = pathname.startsWith("/auth");
+    const isAuthPage = pathname.startsWith("/auth") || pathname.startsWith("/admin");
 
     return (
         <>
