@@ -215,10 +215,10 @@ const Container_Index = () => {
                         <div className="card-fasilitas-wrapper" ref={sliderRef}>
                             {fasilitasData.map((item, index) => (
                                 <div key={index} className="fasilitas-card">
-                                <img src={item.src} alt={item.alt} className="fasilitas-img" />
-                                <div className="fasilitas-overlay">
-                                    <h3>{item.title}</h3>
-                                </div>
+                                    <img src={item.src} alt={item.alt} className="fasilitas-img" />
+                                    <div className="fasilitas-overlay">
+                                        <h3>{item.title}</h3>
+                                    </div>
                                 </div>
                             ))}
                         </div>

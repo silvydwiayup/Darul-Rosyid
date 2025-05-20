@@ -60,7 +60,7 @@ export default function Navbar() {
                         </ul>
                         )}
                     </li>
-                    <li><Link href="" className="link" onClick={() => setMenuOpen(false)}>Kehidupan Pesantren</Link></li>
+                    <li><Link href="/kehidupan-pesantren" className="link" onClick={() => setMenuOpen(false)}>Kehidupan Pesantren</Link></li>
                     <li><Link href="" className="link" onClick={() => setMenuOpen(false)}>Kontak</Link></li>
                 </ul>
             </div>
