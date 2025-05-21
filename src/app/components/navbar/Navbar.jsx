@@ -55,7 +55,7 @@ export default function Navbar() {
                         {(isMobile ? subMenuOpen : true) && (
                         <ul className="submenu">
                             <li><Link href="/akademik/sd" className="submenu-link" onClick={() => setMenuOpen(false)}>SD</Link></li>
-                            <li><Link href="" className="submenu-link" onClick={() => setMenuOpen(false)}>SMP</Link></li>
+                            <li><Link href="/akademik/smp" className="submenu-link" onClick={() => setMenuOpen(false)}>SMP</Link></li>
                             <li><Link href="" className="submenu-link" onClick={() => setMenuOpen(false)}>SMA</Link></li>
                         </ul>
                         )}
