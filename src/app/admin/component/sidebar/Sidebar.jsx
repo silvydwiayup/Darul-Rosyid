@@ -2,6 +2,7 @@
 import "./Sidebar.css";
 import { useState, useEffect, useRef  } from "react";
 import { FaChevronDown, FaChartPie, FaClipboardList, FaHome } from "react-icons/fa";
+import { RiContactsBook2Fill } from "react-icons/ri";
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -74,6 +75,18 @@ const Sidebar = ({ isCollapsed, setIsCollapsed }) => {
                                 }`}
                                 >
                                 Utama
+                            </span>
+                        </Link>
+                    </li>
+                    <li className="sidebar-item">
+                        <Link href="/admin/contact" className="sidebar-link">
+                            <RiContactsBook2Fill className="sidebar-menu-icon" />
+                            <span
+                                className={`menu-text ${isCollapsed ? "hidden" : ""} ${
+                                    pathname === "/" ? "active-text" : ""
+                                }`}
+                                >
+                                Kontak
                             </span>
                         </Link>
                     </li>
