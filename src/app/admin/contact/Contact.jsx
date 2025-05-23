@@ -12,7 +12,6 @@ const Container_Contact = () => {
             <>
                 <div className="container-header-contact">
                     <div className="section-header-contact">
-                        {/* Edit */}
                         <button className="edit-button-header-contact">
                             Edit <FaEdit className="icon-edit-header-contact" />
                         </button>
@@ -31,7 +30,7 @@ const Container_Contact = () => {
                     <button className="edit-button-contact">
                         Edit <FaEdit className="icon-edit-contact" />
                     </button>
-                    
+
                     <div className="section-contact">
 
                         <div className="header-contact">

@@ -113,7 +113,7 @@ const Sidebar = ({ isCollapsed, setIsCollapsed }) => {
                         {(isCollapsed || showProjectsSubmenu) && (
                             <ul className={`submenu-sidebar ${isCollapsed && showProjectsSubmenu ? "active" : ""}`}>
                                 <li>
-                                    <Link href="" className="submenu-link">SD</Link>
+                                    <Link href="/admin/academic/elementary-school" className="submenu-link">SD</Link>
                                 </li>
                                 <li>
                                     <Link href="" className="submenu-link">SMP</Link>
