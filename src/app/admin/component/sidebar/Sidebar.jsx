@@ -116,7 +116,7 @@ const Sidebar = ({ isCollapsed, setIsCollapsed }) => {
                                     <Link href="/admin/academic/elementary-school" className="submenu-link">SD</Link>
                                 </li>
                                 <li>
-                                    <Link href="" className="submenu-link">SMP</Link>
+                                    <Link href="/admin/academic/junior-high-school" className="submenu-link">SMP</Link>
                                 </li>
                                 <li>
                                     <Link href="" className="submenu-link">SMA</Link>
