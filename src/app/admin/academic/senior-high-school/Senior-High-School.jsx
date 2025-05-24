@@ -123,7 +123,7 @@ const Container_Shs = () => {
 
                 <div className="section-header-shs">
                     <div className="header-shs">
-                        <p className="sub-title-shs">Sekolah Dasar Islam Terpadu</p>
+                        <p className="sub-title-shs">Sekolah Menegah Atas Islam Terpadu</p>
                         <h2 className="title-shs">Darur Rosyid</h2>
                     </div>
                 </div>
