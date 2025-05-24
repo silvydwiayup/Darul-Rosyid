@@ -2,7 +2,7 @@
 import "./Sidebar.css";
 import { useState, useEffect, useRef  } from "react";
 import { FaChevronDown, FaChartPie, FaSchool , FaHome } from "react-icons/fa";
-import { RiContactsBook2Fill } from "react-icons/ri";
+import { RiContactsBook2Fill, RiInformationFill  } from "react-icons/ri";
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -75,6 +75,18 @@ const Sidebar = ({ isCollapsed, setIsCollapsed }) => {
                                 }`}
                                 >
                                 Utama
+                            </span>
+                        </Link>
+                    </li>
+                    <li className="sidebar-item">
+                        <Link href="/admin/about" className="sidebar-link">
+                            <RiInformationFill  className="sidebar-menu-icon" />
+                            <span
+                                className={`menu-text ${isCollapsed ? "hidden" : ""} ${
+                                    pathname === "/" ? "active-text" : ""
+                                }`}
+                                >
+                                Tentang
                             </span>
                         </Link>
                     </li>
