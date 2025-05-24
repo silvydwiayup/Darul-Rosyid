@@ -1,7 +1,7 @@
 'use client';
 import "./Sidebar.css";
 import { useState, useEffect, useRef  } from "react";
-import { FaChevronDown, FaChartPie, FaSchool , FaHome } from "react-icons/fa";
+import { FaChevronDown, FaChartPie, FaSchool , FaHome, FaMosque  } from "react-icons/fa";
 import { RiContactsBook2Fill, RiInformationFill  } from "react-icons/ri";
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -90,18 +90,6 @@ const Sidebar = ({ isCollapsed, setIsCollapsed }) => {
                             </span>
                         </Link>
                     </li>
-                    <li className="sidebar-item">
-                        <Link href="/admin/contact" className="sidebar-link">
-                            <RiContactsBook2Fill className="sidebar-menu-icon" />
-                            <span
-                                className={`menu-text ${isCollapsed ? "hidden" : ""} ${
-                                    pathname === "/" ? "active-text" : ""
-                                }`}
-                                >
-                                Kontak
-                            </span>
-                        </Link>
-                    </li>
                     <li
                         className={`sidebar-item ${isCollapsed ? "collapsed-hover" : ""}`}
                         ref={sidebarRef}
@@ -135,6 +123,30 @@ const Sidebar = ({ isCollapsed, setIsCollapsed }) => {
                                 </li>
                             </ul>
                         )}
+                    </li>
+                    <li className="sidebar-item">
+                        <Link href="/admin/living" className="sidebar-link">
+                            <FaMosque className="sidebar-menu-icon" />
+                            <span
+                                className={`menu-text ${isCollapsed ? "hidden" : ""} ${
+                                    pathname === "/" ? "active-text" : ""
+                                }`}
+                                >
+                                Kehidupan Pesantren
+                            </span>
+                        </Link>
+                    </li>
+                    <li className="sidebar-item">
+                        <Link href="/admin/contact" className="sidebar-link">
+                            <RiContactsBook2Fill className="sidebar-menu-icon" />
+                            <span
+                                className={`menu-text ${isCollapsed ? "hidden" : ""} ${
+                                    pathname === "/" ? "active-text" : ""
+                                }`}
+                                >
+                                Kontak
+                            </span>
+                        </Link>
                     </li>
                     
                 </ul>
