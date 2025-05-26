@@ -320,9 +320,9 @@
     justify-content: center;
     align-items: center;
     z-index: 10;
-  }
+}
   
-  .modal-contact {
+.modal-contact {
     background-color: #fff;
     padding: 2rem;
     border-radius: 16px;
@@ -334,25 +334,25 @@
     gap: 1.2rem;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     animation: fadeIn 0.3s ease;
-  }
+}
   
-  .modal-contact h3 {
+.modal-contact h3 {
     font-size: 1.4rem;
     color: darkcyan;
     text-align: center;
     text-transform: uppercase;
-  }
+}
   
-  .modal-contact label {
+.modal-contact label {
     font-size: 0.95rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     color: black;
-  }
+}
   
-  .modal-contact input[type="text"],
-  .modal-contact input[type="email"] {
+.modal-contact input[type="text"],
+.modal-contact input[type="email"] {
     padding: 0.6rem;
     border-radius: 8px;
     border: 1px solid #ccc;
@@ -360,18 +360,18 @@
     outline: none;
     background-color: white;
     color: black;
-  }
+}
   
-  .modal-contact input:focus {
+.modal-contact input:focus {
     border-color: darkcyan;
-  }
+}
   
-  .modal-actions-contact {
+.modal-actions-contact {
     display: flex;
     justify-content: flex-end;
-  }
+}
   
-  .modal-actions-contact button {
+.modal-actions-contact button {
     background-color: darkcyan;
     color: white;
     border: none;
@@ -379,11 +379,11 @@
     font-size: 0.95rem;
     border-radius: 8px;
     cursor: pointer;
-  }
+}
   
-  .modal-actions-contact button:hover {
+.modal-actions-contact button:hover {
     background-color: #007c7a;
-  }
+}
   
 .modal-close-button-contact {
     position: absolute;
@@ -410,17 +410,17 @@
     border-radius: 10px;
     font-size: 1rem;
     font-family: inherit;
-    resize: vertical; /* bisa diubah ukurannya secara vertikal */
+    resize: vertical; 
     outline: none;
     background-color: #fff;
     color: #000;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
-  }
+}
   
-  .modal-textarea-contact:focus {
+.modal-textarea-contact:focus {
     border-color: darkcyan;
     box-shadow: 0 0 0 3px rgba(0, 139, 139, 0.2);
-  }
+}
   
   
 
