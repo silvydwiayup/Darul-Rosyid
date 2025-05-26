@@ -3,7 +3,7 @@
 
 import './Elementary-School.css'
 import { FaAngleRight, FaAngleLeft, FaEdit } from "react-icons/fa";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 
 
 const Elementary_School = () => {
